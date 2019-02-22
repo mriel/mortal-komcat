@@ -1,14 +1,41 @@
----
-layout: default
-title: blog
----
-<h1>Latest Post</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>blog</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <h1>Latest Post</h1>
 
 <ul>
-    {% for post in site.posts %}
+    
     <li>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p>{{ post.excerpt }}</p>
+        <h2><a href="/2019/02/10/truffles.html">Truffles</a></h2>
+        <p><p>A banana is an edible fruit – botanically a berry – produced by several kinds
+of large herbaceous flowering plants in the genus Musa.</p>
+
+</p>
     </li>
-    {% endfor %}
+    
+    <li>
+        <h2><a href="/2019/01/25/pickles.html">Pickles</a></h2>
+        <p><p>An apple is a sweet, edible fruit produced by an apple tree.</p>
+
+</p>
+    </li>
+    
+    <li>
+        <h2><a href="/2019/01/20/florence.html">Florence</a></h2>
+        <p><p>I once met a woman who everyone hated. She didn’t get along with others and her social awkwardness was usually misunderstood for bitchiness. To be fair, she made it difficult for anyone to see it otherwise. She was gorgeous and had one of the sexiest bodies I had ever seen - but she never had any friends. She was loyal and affectionate but never wanted to be around crowds. She just wanted to be around me. And there is something nice about that. To be made to feel like the only person in the room. To have someone want to rest their head in your lap while they lovingly stare into your eyes. To feel like you are enough for one person. Sure, a bit of an ego stroke, but sometimes there is a warmth that comes from the validation that who you are at this moment is enough for another person… even if that person is a bit of an asshole.</p>
+
+</p>
+    </li>
+    
 </ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/assets/js/catSelect.js"></script>
+</body>
+</html>
