@@ -1,0 +1,23 @@
+---
+label: post
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: layout
+  name: layout
+  description: 'default post layout '
+  config:
+    required: true
+  default: post
+- type: text
+  name: name
+  label: Name
+  description: Cat name
+  config:
+    required: true
+  default: pickles
+- type: file
+  name: image
+  label: image
+  description: image of cat
