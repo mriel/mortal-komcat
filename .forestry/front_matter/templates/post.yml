@@ -21,3 +21,5 @@ fields:
   name: image
   label: image
   description: image of cat
+pages:
+- _posts/2019-02-23-larry.md
