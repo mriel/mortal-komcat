@@ -22,5 +22,6 @@ fields:
   label: image
   description: image of cat
 pages:
+- _posts/vegeta.md
 - _posts/2019-02-28-Leo.md
 - _posts/2019-02-23-larry.md
