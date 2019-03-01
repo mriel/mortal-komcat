@@ -22,6 +22,7 @@ fields:
   label: image
   description: image of cat
 pages:
+- _posts/2019-03-03-carol.md
 - _posts/2019-03-02-harlow.md
 - _posts/2019-03-01-lilac.md
 - _posts/2019-02-29-vegeta.md
