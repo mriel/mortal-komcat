@@ -40,9 +40,9 @@ body {
 }
 
 .character {
-	margin: 8px;
+	margin: 10px;
 	width: auto;
-	max-height: 120px;
+	max-height: 223px;
 	align-self: stretch;
 	background: rgba(255, 255, 255, 0.75);
 	cursor: pointer;
@@ -88,7 +88,7 @@ body {
 }
 
 .character_profile {
-	max-width: 842px;
+	max-width: 1080px;
 	margin: 50px auto;
 	background: rgba(255, 255, 255, 0.75);
 	text-align: center;
