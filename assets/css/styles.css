@@ -24,7 +24,7 @@ body {
   margin-bottom: 0px; }
 
 .select-container {
-  max-width: 854px;
+  max-width: 1080px;
   display: flex;
   margin: 1em auto 3em;
   flex-wrap: wrap;
@@ -63,10 +63,10 @@ body {
       color: white;
       opacity: 0.7;
       margin-top: 0.8em;
-      font-size: 0.65em;
+      font-size: 0.75em;
       text-transform: uppercase;
       font-weight: 700;
-      padding: 0.3em 0; }
+      padding: 0.5em 0; }
     .character.active .character__img {
       filter: grayscale(0);
       outline: 4px solid yellow;
