@@ -24,7 +24,7 @@ body {
   margin-bottom: 0px; }
 
 .select-container {
-  max-width: 1130px;
+  width: 1130px;
   display: flex;
   margin: 1em auto 3em;
   flex-wrap: wrap;
@@ -51,7 +51,8 @@ body {
     padding: 0; }
   .character__img {
     filter: grayscale(0.84);
-    height: 120px; }
+    height: 150px;
+    width: 150px; }
   .character.active {
     transform: scale(1.05);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
@@ -73,19 +74,16 @@ body {
       animation: flash 300ms linear; }
 
 .character_profile {
-  max-width: 1080px;
+  max-width: 1130px;
   margin: 50px auto;
   background: rgba(255, 255, 255, 0.75);
   text-align: center;
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; }
+  padding: 20px; }
   .character_profile img {
-    width: 300px; }
+    width: 300px;
+    border: 10px solid black; }
   .character_profile .character_profile-content {
-    width: 500px;
-    margin-left: 20px; }
+    margin-top: 20px; }
   .character_profile .character_profile-header {
     margin-top: 0px; }
 
